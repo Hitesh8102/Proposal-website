@@ -1,0 +1,186 @@
+
+  body {
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+#proposal-box {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #d32f2f;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    height: 50px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yes-btn {
+    background-color: #4caf50;
+    font-weight: bold;
+}
+
+#no-btn {
+   background-color: #4caf50; 
+   font-weight: bold; 
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s;
+  }
+  #no-btn:hover {
+    background-color: red;
+    color:whitesmoke;
+}
+
+#yes-btn:hover {
+    background-color: #388e3c;
+    
+}
+#yes-btn:hover{
+     animation: blinker 0.3s linear infinite;
+ }
+ @keyframes blinker{
+      50% { background-color: aqua;
+      }
+ }
+
+
+/*  second page  */
+ #back-btn{
+    background-color:greenyellow;
+    font-weight: bold;
+ }
+ #back-btn:hover{
+     animation: blinker 0.3s linear infinite;
+ }
+ @keyframes blinker{
+      50% { background-color: aqua;
+      }
+ }
+
+
+ /*  extra added later  */
+
+ #aqua-btn {
+  /* Colors */
+  background-color: #00FFFF; /* Aqua */
+  color: #000000;            /* Black text */
+  
+  /* Sizing & Shape */
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #000000; /* Black border for sharp contrast */
+  border-radius: 8px;
+  cursor: pointer;
+  
+  /* The Shadow (Black) */
+  /* Parameters: horizontal, vertical, blur, spread, color */
+  box-shadow: 0px 6px 0px 0px #000000; 
+  
+  /* Smooth transition for the "push" effect */
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+
+/* Hover Effect: Moves the button down slightly to simulate a "press" */
+#aqua-btn:hover {
+  background-color: #00e6e6; /* Slightly darker aqua */
+}
+
+#aqua-btn:active {
+  box-shadow: 0px 2px 0px 0px #000000; /* Shrink shadow on click */
+  transform: translateY(4px);         /* Move button down */
+}
+#no-btn {
+  /* Colors */
+  background-color: #00FFFF; /* Aqua */
+  color: #000000;            /* Black text */
+  
+  /* Sizing & Shape */
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #000000; /* Black border for sharp contrast */
+  border-radius: 8px;
+  cursor: pointer;
+  
+  /* The Shadow (Black) */
+  /* Parameters: horizontal, vertical, blur, spread, color */
+  box-shadow: 0px 6px 0px 0px #000000; 
+  
+  /* Smooth transition for the "push" effect */
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+
+#yes-btn {
+  /* Colors */
+  background-color: #00FFFF; /* Aqua */
+  color: #000000;            /* Black text */
+  
+  /* Sizing & Shape */
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #000000; /* Black border for sharp contrast */
+  border-radius: 8px;
+  cursor: pointer;
+  
+  /* The Shadow (Black) */
+  /* Parameters: horizontal, vertical, blur, spread, color */
+  box-shadow: 0px 6px 0px 0px #000000; 
+  
+  /* Smooth transition for the "push" effect */
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+
+/* Hover Effect: Moves the button down slightly to simulate a "press" */
+.aqua-btn:hover {
+  background-color: #00e6e6; /* Slightly darker aqua */
+}
+
+.aqua-btn:active {
+  box-shadow: 0px 2px 0px 0px #000000; /* Shrink shadow on click */
+  transform: translateY(4px);         /* Move button down */
+}
+
+ 
